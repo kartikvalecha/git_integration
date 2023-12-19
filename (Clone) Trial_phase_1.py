@@ -2,6 +2,8 @@
 # Create a text widget
 dbutils.widgets.text("name", "")
 
+# COMMAND ----------
+
 # Access the value of the text widget
 name = dbutils.widgets.get("name")
 
